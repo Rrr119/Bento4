@@ -49,7 +49,7 @@ Setup:
 	mkdir $(OUTPUT_DIR)
 
 # ------- Apps -----------
-ALL_APPS = mp4dump mp4info mp42aac mp42ts aac2mp4 mp4decrypt mp4encrypt mp4edit mp4extract mp4rtphintinfo mp4tag mp4dcfpackager mp4fragment mp4compact mp4split mp4mux avcinfo hevcinfo mp42hevc mp42hls mp4iframeindex
+ALL_APPS = mp4dump mp4info mp42aac mp42ts aac2mp4 mp4decrypt mp4encrypt mp4edit mp4extract mp4rtphintinfo mp4tag mp4dcfpackager mp4fragment mp4compact mp4split mp4mux avcinfo hevcinfo mp42hevc mp42hls mp4iframeindex mp4repair
 export ALL_APPS
 
 ##################################################################
@@ -80,6 +80,10 @@ mp4dump: lib
 mp4info: lib
 	$(TITLE)
 	@$(INVOKE_SUBMAKE) -f $(BUILD_ROOT)/Makefiles/Mp4Info.mak
+
+mp4repair: lib
+	$(TITLE)
+	@$(INVOKE_SUBMAKE) -f $(BUILD_ROOT)/Makefiles/Mp4Repair.mak
 
 mp42aac: lib
 	$(TITLE)

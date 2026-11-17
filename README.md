@@ -47,6 +47,7 @@ The Bento4 SDK includes several command-line applications/tools that are built u
 |---------------|------------------
 |mp4info	    | displays high level info about an MP4 file, including all tracks and codec details                                                              
 |mp4dump	    | displays the entire atom/box structure of an MP4 file                                                                                           
+|mp4repair      | rebuilds damaged MP4 indexes and sample tables when `moov` cannot be parsed
 |mp4edit	    | add/insert/remove/replace atom/box items of an MP4 file                                                                                         
 |mp4extract	    | extracts an atom/box from an MP4 file                                                                                                           
 |mp4encrypt	    | encrypts an MP4 file (multiple encryption schemes are supported)                                                                                

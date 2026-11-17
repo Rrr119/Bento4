@@ -21,6 +21,7 @@ Tools Documentation
 |-----------|-------------|
 | [mp4info](mp4info.md) | displays high level info about an MP4 file, including all tracks and codec details
 | [mp4dump](mp4info.md) | displays the entire atom/box structure of an MP4 file
+| [mp4repair](mp4repair.md) | rebuilds damaged MP4 indexes and sample tables when `moov` cannot be parsed
 | [mp4edit](mp4edit.md) | add/insert/remove/replace atom/box items of an MP4 file
 | [mp4extract](mp4extract.md) | extracts an atom/box from an MP4 file
 | [mp4encrypt](mp4encrypt.md) | encrypts an MP4 file (multiple encryption schemes are supported)

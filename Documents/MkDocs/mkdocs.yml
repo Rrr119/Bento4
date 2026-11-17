@@ -18,6 +18,7 @@ nav:
     - Tools:
       - mp4info: documentation/mp4info.md
       - mp4dump: documentation/mp4dump.md
+      - mp4repair: documentation/mp4repair.md
       - mp4edit: documentation/mp4edit.md
       - mp4extract: documentation/mp4extract.md
       - mp4encrypt: documentation/mp4encrypt.md

@@ -232,6 +232,7 @@ bin_files = [
     (bin_in,'mp4decrypt','bin'),
     (bin_in,'mp4dump','bin'),
     (bin_in,'mp4edit','bin'),
+    (bin_in,'mp4repair','bin'),
     (bin_in,'mp4encrypt','bin'),
     (bin_in,'mp4extract','bin'),
     (bin_in,'mp4fragment','bin'),
